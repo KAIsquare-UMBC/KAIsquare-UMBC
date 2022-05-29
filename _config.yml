@@ -6,14 +6,13 @@ course_semester: "Fall 2022"
 baseurl: "/KAIsquare-UMBC" # the subpath of your site, e.g. /blog/
 url: "https://kaisquare-umbc.github.io/" # the base hostname & protocol for your site
 
-schoolname: "Hogwarts"
-schoolurl: "https://hogwarts.edu"
+schoolname: "University of Baltimore County"
+schoolurl: "https://umbc.edu"
 twitter_username: username 
 
 address: |
-    School of Witchcraft and Wizardry
-    Hogwarts
-    Scotland
+   University of Maryland, Baltimore County
+   1000 Hilltop Circle, Baltimore, MD 21250 
 
 # Set your Google Analytics tracking ID (set up yours at http://www.google.com/analytics/)
 # google_analytics: UA-XXXXXXXX-X
