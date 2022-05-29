@@ -6,7 +6,7 @@ course_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Na
 baseurl: "/KAIsquare-UMBC" # the subpath of your site, e.g. /blog/
 url: "https://kaisquare-umbc.github.io/" # the base hostname & protocol for your site
 
-schoolname: "University of Baltimore County"
+schoolname: "University of Maryland, Baltimore County"
 schoolurl: "https://umbc.edu"
 twitter_username: username 
 
