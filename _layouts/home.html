@@ -9,12 +9,14 @@ layout: default
     {% include announcements.html %}
     <br />
 
-    <h2>About KAI SQUARE</h2>
+    <h2>Course Information</h2>
     
-    <p> The Artificial Intelligence Institute of UofSC (AIISC) resulted in the university-wide excellence initiative.
-        It started with Prof. Amit Sheth, moving as the founding director, with his initial team in 2019. 
-        It has rapidly grown to over 25 researchers, with the joining of Prof. Biplav Srivastava, Forest Agostinelli, and Qi Zhang in 2020. 
-        As a university-wide institute, it already has collaborations with a majority of the colleges on the campus </p>
+    <p> The course will provide extensive grounding in machine learning models and its utility to make predictions. The course will go over the mathematical foundations and real world applications of machine learning. The course will slowly move over the topics like prediction and classification problems, kernel methods, generative modeling, probability theory, optimization theory, representation learning, neural networks, and many more. In process, the course would teach some of the limitations of machine learning and how to augment them with better methods.</p>
+
+    <p> Slides, materials, and project information for this iteration of machine learning course are borrowed from Andrew Ng, Sanjoy Dasgupta, Tom Mitchell, Maria-Florina Balcan, Hal Daume III, Trevor Hastie, and Robert Tsibrani</p>
+
+    <!-- http://www.cs.cmu.edu/~ninamf/courses/601sp15/lectures.shtml -->
+    <!-- https://web.stanford.edu/class/cs129/ -->
     
     <p>{{ site.course_description }}</p>
     
@@ -27,7 +29,7 @@ layout: default
         
        <div style="width:50%; float: left">
             <div class="profile-pic-gallary ">
-                <h2>Phd Students</h2>
+                <h2>Course Instructor</h2>
                 {% for ta in site.data.people.teaching_assistants %}
                 <div class="image--cover-container">
                     <img src="{{ta.profile_pic | prepend: site.baseurl }}" class="image--cover">
